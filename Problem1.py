@@ -30,4 +30,3 @@ class Ui_Form(object):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
         self.gb_Input.setTitle(_translate("Form", "Input"))
-

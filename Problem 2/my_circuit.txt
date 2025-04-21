@@ -1,0 +1,11 @@
+<circuittopology>
+  <node id="n1" x="50"  y="50" />
+  <node id="n2" x="200" y="50" />
+  <node id="n3" x="200" y="200"/>
+  <node id="n4" x="50"  y="200"/>
+
+  <voltage id="v1"  from="n4" to="n1" />
+  <inductor id="L1" from="n1" to="n2" />
+  <resistor  id="R1" from="n2" to="n3" />
+  <capacitor id="C1" from="n3" to="n4" />
+</circuittopology>
